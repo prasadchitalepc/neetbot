@@ -23,7 +23,7 @@
 
 <button type="button"
         onclick="alert('Like has been saved!');">
-        Like post &nbsp;<img src="/Start.ico" />
+        GO &nbsp;<div class="corner"> <img  src="/Start.ico" /> </div>
 </button>
 </section>
 
@@ -55,4 +55,10 @@
 		top: 0;
 		display: block;
 	}
+		.corner img {
+		width: 2em;
+		height: 2em;
+		object-fit: contain;
+	}
+
 </style>
