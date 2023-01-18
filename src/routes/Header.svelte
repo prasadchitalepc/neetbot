@@ -7,7 +7,7 @@
 <header>
 	<div class="corner">
 		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" visible="false" />
+			<img src={logo} alt="SvelteKit" hidden="hidden" />
 		</a>
 	</div>
 
@@ -28,11 +28,7 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div>
+	
 </header>
 
 <style>
