@@ -18,14 +18,10 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app hello
+		TO Takeups<br />AI based app for exam preparation
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
 
-	<Counter />
 </section>
 
 <style>

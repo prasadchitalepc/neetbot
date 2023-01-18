@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Powered by <a href="https://openai.com">OpenAI</a> </p>
 	</footer>
 </div>
 
