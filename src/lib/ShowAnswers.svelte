@@ -13,3 +13,5 @@ export let questions;
   </div>
 
  {/each}
+
+ <a href="/">CLOSE</a>
