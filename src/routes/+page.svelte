@@ -20,11 +20,12 @@
 
 		TO Takeups<br />AI based app for exam preparation
 	</h1>
-
+<a href="/start">
 <button type="button"
-        onclick="alert('Like has been saved!');">
+        >
         GO &nbsp;<div class="corner"> <img  src="/Start.ico" /> </div>
 </button>
+</a>
 </section>
 
 <style>
