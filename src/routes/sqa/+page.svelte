@@ -1,5 +1,9 @@
 <script>
 	import ShowQuestion from '../../lib/ShowQuestion.svelte';
+  import ShowAnswers from '../../lib/ShowAnswers.svelte';
+  
+  var toggle = false;
+
   var qlst = {
   q: [
     "Who first observed the response of coleoptiles of canary grass to light?",
@@ -14,10 +18,20 @@
     "The bakanae disease of rice seedlings is caused by a fungal pathogen called Gibberella fujikuroi."
   ]
 }
+
+function handleShowAnswersClick() {
+    toggle = true;
+	}
 </script>
-<h1> Questions </h1>
-<{#each qlst.q as item, i}
-	<li>{i + 1}: {item} </li>
-{/each}
-<ShowQuestion/>
+{#if toggle}
+	<ShowAnswers questions={qlst}/>
+  {:else}
+<ShowQuestion questions={qlst.q}/>
+<button on:click={handleShowAnswersClick}>Show Answers</button>
+{/if}
+
+
+
+
+
 
