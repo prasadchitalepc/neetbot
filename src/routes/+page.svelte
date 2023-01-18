@@ -21,7 +21,10 @@
 		TO Takeups<br />AI based app for exam preparation
 	</h1>
 
-
+<button type="button"
+        onclick="alert('Like has been saved!');">
+        Like post &nbsp;<img src="/Start.ico" />
+</button>
 </section>
 
 <style>
