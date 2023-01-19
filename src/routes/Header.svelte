@@ -116,7 +116,5 @@
 		transition: color 0.2s linear;
 	}
 
-	a:hover {
-		color: var(--color-theme-1);
-	}
+	
 </style>

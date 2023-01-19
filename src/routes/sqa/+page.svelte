@@ -2,7 +2,13 @@
 	import ShowQuestion from '../../lib/ShowQuestion.svelte';
   import ShowAnswers from '../../lib/ShowAnswers.svelte';
   import Button, { Label } from '@smui/button';
-
+import Card, {
+    Content,
+    PrimaryAction,
+    Actions,
+    ActionButtons,
+    ActionIcons,
+  } from '@smui/card';
   var toggle = false;
 
   var qlst = {
@@ -28,7 +34,13 @@ function handleShowAnswersClick() {
 	<ShowAnswers questions={qlst}/>
   {:else}
 <ShowQuestion questions={qlst.q}/>
+<br/>
+<div class="card-container">
+    <Card>
 <Button on:click={handleShowAnswersClick}>Show Answers</Button>
+    </Card>
+  </div>
+
 {/if}
 
 

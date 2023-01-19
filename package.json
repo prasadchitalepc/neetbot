@@ -19,6 +19,7 @@
 		"@smui/button": "*",
 		"@smui/card": "*",
 		"@smui/layout-grid": "*",
+		"@smui/top-app-bar": "*",
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
 		"@types/cookie": "^0.5.1",
