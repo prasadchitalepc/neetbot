@@ -2,6 +2,7 @@
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
+
 <TopAppBar bind:this={topAppBar} variant="fixed">
   <Row>
     <Section>
@@ -30,7 +31,7 @@
   />
 </AutoAdjust>
 
-<script lang="ts">
+<script>
   import TopAppBar, {
     Row,
     Section,
