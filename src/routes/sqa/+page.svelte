@@ -37,7 +37,8 @@ function handleShowAnswersClick() {
     toggle = true;
 	}
 </script>
-  
+<div class="flexy">  
+<div class="top-app-bar-container flexor">
 <TopAppBar
       variant="static"
       {prominent}
@@ -52,7 +53,8 @@ function handleShowAnswersClick() {
         
       </Row>
     </TopAppBar>
-
+</div>
+</div>
 
 {#if toggle}
 	<ShowAnswers questions={qlst}/>
