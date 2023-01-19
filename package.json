@@ -18,6 +18,8 @@
 		"@neoconfetti/svelte": "^1.0.0",
 		"@smui/button": "*",
 		"@smui/card": "*",
+		"@smui/checkbox": "*",
+		"@smui/form-field": "*",
 		"@smui/icon-button": "*",
 		"@smui/layout-grid": "*",
 		"@smui/top-app-bar": "*",
