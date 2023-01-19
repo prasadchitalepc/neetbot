@@ -90,7 +90,7 @@
   </div>
 </div>
 
-<script lang="ts">
+<script>
   import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
   import IconButton from '@smui/icon-button';
   import Checkbox from '@smui/checkbox';
