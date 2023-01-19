@@ -1,5 +1,6 @@
 <script>
 export let questions;
+import Button, { Label } from '@smui/button';
 </script>
 
 <h1>Answers</h1>

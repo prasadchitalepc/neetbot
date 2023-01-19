@@ -1,7 +1,8 @@
 <script>
 	import ShowQuestion from '../../lib/ShowQuestion.svelte';
   import ShowAnswers from '../../lib/ShowAnswers.svelte';
-  
+  import Button, { Label } from '@smui/button';
+
   var toggle = false;
 
   var qlst = {
@@ -27,7 +28,7 @@ function handleShowAnswersClick() {
 	<ShowAnswers questions={qlst}/>
   {:else}
 <ShowQuestion questions={qlst.q}/>
-<button on:click={handleShowAnswersClick}>Show Answers</button>
+<Button on:click={handleShowAnswersClick}>Show Answers</Button>
 {/if}
 
 

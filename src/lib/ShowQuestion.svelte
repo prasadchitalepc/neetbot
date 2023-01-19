@@ -20,7 +20,8 @@
 
       currq = questions[count];
 	}
-
+import Button, { Label } from '@smui/button';
+import LayoutGrid, { Cell } from '@smui/layout-grid';
 </script>
 
 <div>
@@ -30,11 +31,20 @@
   
 </div>
 
-<button on:click={handlePrevClick}>
-	PREV {count}
-</button>
-<button on:click={handleNextClick}>
-	NXT{count}
-</button>
+
+<LayoutGrid>
+<Cell>
+<Button on:click={handlePrevClick}>
+	PREV 
+</Button>
+</Cell>
+<Cell>
+<Button on:click={handleNextClick}>
+	NXT
+</Button>
+</Cell>
+</LayoutGrid>
+
+
 
   
