@@ -32,7 +32,7 @@
       </Row>
     </TopAppBar>
     <div class="flexor-content">
-      <LoremIpsum />
+      
       <img
         alt="Page content placeholder"
         src="/page-content.jpg"
@@ -67,7 +67,7 @@
       </Row>
     </TopAppBar>
     <div>
-      <LoremIpsum />
+      
       <img
         alt="Page content placeholder"
         src="/page-content.jpg"
