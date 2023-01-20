@@ -1,12 +1,15 @@
 <script>
-	import Counter from './Counter.svelte';
+
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+
+	import Button, { Label } from '@smui/button';
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="TAKEUPS
+AI based app for exam preparation" />
 </svelte:head>
 
 <section>
@@ -18,13 +21,12 @@
 			</picture>
 		</span>
 
-		TO Takeups<br />AI based app for exam preparation
+		TO TAKEUPS<br />AI based app for exam preparation
 	</h1>
-<a href="/start">
-<button type="button"
-        >
-        GO &nbsp;<div class="corner"> <img  src="/Start.ico" /> </div>
-</button>
+<a class="btn" href="/start">
+<Button>
+	START
+	</Button>
 </a>
 </section>
 

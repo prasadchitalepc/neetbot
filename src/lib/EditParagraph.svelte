@@ -31,9 +31,11 @@ import Button, { Label } from '@smui/button';
       <Content>
       <textarea bind:value={paraValue} rows="15"></textarea></Content>
       <Actions>
-        <Button on:click={handleStartClick}>
+      <a href="/sqa">
+        <Button>
           <Label>START</Label>
         </Button>
+        </a>
         <Button  on:click={handleClearClick}>
           <Label>CLEAR</Label>
         </Button>
