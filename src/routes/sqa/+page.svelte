@@ -1,7 +1,7 @@
 <script>
 	import ShowQuestion from '../../lib/ShowQuestion.svelte';
   import ShowAnswers from '../../lib/ShowAnswers.svelte';
-  import EditParagraph from '../../lib/EditParagraph.svelte';
+
   import Button, { Label } from '@smui/button';
 import Card, {
     Content,
