@@ -46,7 +46,7 @@ import Button, { Label } from '@smui/button';
 </script>
 
 
-
+<h1>Browse Questions</h1>
 <div class="card-container">
     <Card>
       <Content>{currq}</Content>
