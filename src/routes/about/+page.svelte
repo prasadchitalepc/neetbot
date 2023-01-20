@@ -3,6 +3,5 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div>
-<p>ds</p>
+
 
