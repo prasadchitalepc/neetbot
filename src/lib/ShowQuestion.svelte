@@ -8,7 +8,7 @@
   let qcnt = questions.length;
   let prevdisabled = "disabled";
   let nxtdisabled = "disabled";
-
+t2speech(currq);
   $: if (count == 0) {		
 		prevdisabled = "disabled";    
 	}
