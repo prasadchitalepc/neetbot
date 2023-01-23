@@ -52,7 +52,7 @@ import Button, { Label } from '@smui/button';
     ActionIcons,
   } from '@smui/card';
 
-  t2speech(currq);
+  
 </script>
 
 
