@@ -15,6 +15,7 @@ import Card, {
  
   var toggle = false;
   let showpara = true;
+  let result = "";
 
   var qlst = {
   q: [
@@ -34,6 +35,10 @@ import Card, {
 function handleShowAnswersClick() {
     toggle = true;
 	}
+
+
+ 
+
 </script>
 
     
@@ -51,6 +56,13 @@ function handleShowAnswersClick() {
 
 {/if}
 
+
+<p>
+	Result:
+</p>
+<pre>
+{result}
+</pre>
 
 <style>
   

@@ -27,12 +27,20 @@ $: if (count == qcnt-1) {
       currq = questions[count];
   
 	}
+function t2speech(String paramText)
+{
+  let synth = speechSynthesis;
 
+let utterance = new SpeechSynthesisUtterance(paramText);
+   
+    synth.speak(utterance);
+}
   function handleNextClick() {
     if(count < qcnt-1)
 		  count += 1;
 
       currq = questions[count];
+      t2speech(currq);
 	}
 import Button, { Label } from '@smui/button';
 
