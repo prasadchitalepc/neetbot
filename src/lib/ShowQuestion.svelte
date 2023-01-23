@@ -8,7 +8,7 @@
   let qcnt = questions.length;
   let prevdisabled = "disabled";
   let nxtdisabled = "disabled";
-t2speech(currq);
+
   $: if (count == 0) {		
 		prevdisabled = "disabled";    
 	}
@@ -25,7 +25,7 @@ $: if (count == qcnt-1) {
     if(count > 0)
 		  count -= 1;      
       currq = questions[count];
-  t2speech(currq);
+    t2speech(currq);
 	}
 
   function handleNextClick() {
@@ -51,6 +51,8 @@ import Button, { Label } from '@smui/button';
     ActionButtons,
     ActionIcons,
   } from '@smui/card';
+
+  t2speech(currq);
 </script>
 
 
