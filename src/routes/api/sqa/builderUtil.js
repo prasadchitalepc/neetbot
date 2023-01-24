@@ -1,4 +1,4 @@
-import { question } from "../../models/question.mjs";
+import { question } from "./question.mjs";
 
 /**
  * 
