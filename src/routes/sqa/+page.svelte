@@ -50,7 +50,7 @@ function handleShowAnswersClick() {
   }
   });
 
-  result = await await response.json();
+  result = await response.json();
   
 	}
 
