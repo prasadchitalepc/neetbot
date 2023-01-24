@@ -4,6 +4,7 @@ import { json } from '@sveltejs/kit';
 import { getQuesAns } from "./chatgpt.js";
 export async function POST({ request }) {  
   var out = await getQuesAns();
+  console.log(out);
   return out;
-console.log(out);
+
 }
