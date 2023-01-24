@@ -36,13 +36,9 @@ function handleShowAnswersClick() {
     toggle = true;
 	}
 
- function doPost()
- {
-   Postdata().then(function(response){ 
-  result= response.json()};
- }
+ 
  function async Postdata () {		
-		 fetch('api/sqa', {
+	 const response = await	 fetch('api/sqa', {
   method: 'POST',
   body: JSON.stringify({
     a:"name",
@@ -52,7 +48,9 @@ function handleShowAnswersClick() {
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   }
-  })
+  });
+
+  result = await await response.json();
   
 	}
 
