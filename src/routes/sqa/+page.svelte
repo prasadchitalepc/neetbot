@@ -41,8 +41,7 @@ function handleShowAnswersClick() {
 		const res = await fetch('https://gleaming-sandals-duck.cyclic.app/genQuestions',
     
     {
-			method: 'POST',
-      mode: 'no-cors',
+			method: 'POST',      
       headers: {
       'content-Type': 'application/json'
       // 'Content-Type': 'application/x-www-form-urlencoded',
