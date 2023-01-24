@@ -70,7 +70,7 @@ function handleShowAnswersClick() {
   </div>
 
 {/if}
-<button type="button" on:click={doPost}>
+<button type="button" on:click={Postdata}>
 	Post it.
 </button>
 
