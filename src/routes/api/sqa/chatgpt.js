@@ -11,6 +11,7 @@ const openai = new OpenAIApi(configuration);
 // Fire OpenAI call with question template to get back questions and answers
 async function getQuestions(inputPara) {
     console.log("Sending prompt to ChatGPT...");
+    console.log(process.env.OPENAI_API_KEY);
 
     try {
         const response = await openai.createCompletion({
