@@ -37,7 +37,7 @@ function handleShowAnswersClick() {
 	}
 
  
- function async Postdata () {		
+ async function Postdata () {		
 	 const response = await	 fetch('api/sqa', {
   method: 'POST',
   body: JSON.stringify({
