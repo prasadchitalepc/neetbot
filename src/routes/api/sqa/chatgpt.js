@@ -3,7 +3,7 @@ import { buildQuesResponse } from "./builderUtil.js";
 
 // Initializations
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
