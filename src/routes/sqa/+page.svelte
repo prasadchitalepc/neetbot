@@ -52,7 +52,8 @@ function handleShowAnswersClick() {
   }
   });
 
-  result = await response.json();
+  qlst = await response.json();
+  qlst = qlst;
   
 	}
 
