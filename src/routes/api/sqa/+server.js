@@ -5,6 +5,6 @@ import { getQuesAns } from "./chatgpt.js";
 export async function POST({ request }) {  
   var out = await getQuesAns();
   console.log(out);
-  return new Response(String(out));
+  return new Response(JSON.stringify(out));
 
 }
