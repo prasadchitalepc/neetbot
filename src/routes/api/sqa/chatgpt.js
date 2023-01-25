@@ -49,5 +49,5 @@ export async function getQuesAns() {
     return buildQuesResponse(qString, 0); // last parater is question type i.e. 0 - for simple questions, 1 - MCQ
 }
 var out = await getQuesAns();
-console.log(out);
+
 
