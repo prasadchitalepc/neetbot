@@ -32,6 +32,8 @@ import Card, {
   ]
 }
 
+Postdata();
+
 function handleShowAnswersClick() {
     toggle = true;
 	}
@@ -61,7 +63,7 @@ function handleShowAnswersClick() {
 {#if toggle}
 	<ShowAnswers questions={qlst}/>
   {:else}
-<ShowQuestion questions={qlst.q}/>
+<ShowQuestion questions={qlst}/>
 <br/>
 <div class="card-container">
     <Card>

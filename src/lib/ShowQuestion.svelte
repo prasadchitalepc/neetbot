@@ -25,7 +25,7 @@ $: if (count == qcnt-1) {
     if(count > 0)
 		  count -= 1;      
       currq = questions[count];
-    t2speech(currq);
+    t2speech(currq.question);
 	}
 
   function handleNextClick() {
@@ -33,7 +33,7 @@ $: if (count == qcnt-1) {
 		  count += 1;
 
       currq = questions[count];
-      t2speech(currq);
+      t2speech(currq.question);
 	}
 
   function t2speech(paramText){
@@ -59,7 +59,7 @@ import Button, { Label } from '@smui/button';
 <h1>Browse Questions</h1>
 <div class="card-container">
     <Card>
-      <Content>{currq}</Content>
+      <Content>{currq.question}</Content>
       <Actions>
         <Button disabled='{prevdisabled}' on:click={handlePrevClick}>
           <Label>PREV</Label>
